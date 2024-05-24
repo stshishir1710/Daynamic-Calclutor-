@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;
+    height: 450px;
+    background-color: #5c5b5b;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.container .display input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 29px;
+    text-align: right;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.container .button{
+    text-align: center;
+    margin-top: 30px;
+}
+.container .button .line{
+    margin-top: 25px;
+}
+.container .button .line input{
+    margin-left: 3px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.container .button input{
+    width: 60px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow:  21px 21px 44px #262424,
+             -21px -21px 44px #4c4a4a;
+}
+.container .button #equal{
+    width: 125px;
+}
+.container .button .color{
+    color: #008cff;
+}
+.container .button #ac{
+    background-color: red;
+    color: white;
+}
